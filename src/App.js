@@ -1,12 +1,9 @@
-import React from 'react';
-import './styles.css';
+import React, { useState } from 'react';
+import Counter from './components/Counter';
 
 export default function App() {
+
   return (
-    <div className="container">
-      <button>-</button>
-      <span className="counter">0</span>
-      <button>+</button>
-    </div>
+    <Counter/>
   )
 }
